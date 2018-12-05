@@ -20,7 +20,7 @@ const gif = require("gif-search");
 
 const client = new Discord.Client({disableEveryone: true});
 
-const prefix = "1";
+const prefix = "4";
 /////////////////////////
 ////////////////////////
 
@@ -375,7 +375,7 @@ client.on('message', function(message) {
 client.on('ready',async () => {
 console.log("Starting..");
 let g = client.guilds.get("499573026732638208");
-let c = g.channels.get("519507170983804932");
+let c = g.channels.get("519507442082512913");
 if(c.type === 'voice') {
 c.join();
 setInterval(() => {
