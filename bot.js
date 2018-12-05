@@ -395,7 +395,7 @@ client.on('ready', () => {
       console.log(`ON ${client.guilds.size} Ween, ' `);
     console.log(`----------------`);
   console.log(`Logged in as ${client.user.tag}!`);
-client.user.setGame(`1play`,"https://www.twitch.tv/xkilleryt")
+client.user.setGame(`4play`,"https://www.twitch.tv/xkilleryt")
 client.user.setStatus("online")
  
 });
